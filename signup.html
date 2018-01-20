@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign up</title>
+    
+	<link href="css/bootstrap.css" rel="stylesheet">
+<style>
+	body{
+		margin top: 250px;
+		margin-left: 50px;
+		margin-right: 60px;
+		margin-bottom: 100px;
+		background-color:#D0D0D0;
+	}
+
+	.apple
+	{
+		margin-top: 150px;
+		margin-left: 200px;
+		margin-right: 150px;
+		margin-bottom: 100px;
+	}
+	
+	.iphone
+	{
+		
+		background-image: url(images/black.jpg);
+		color: white;	
+	}
+	
+	.footer {
+    background-color: #f5f5f5;
+    bottom: -100px;
+    height: 50px;
+    position:absolute;
+    width: 100%;
+	}
+	
+	  </style>
+<link href="css/navbar.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+
+	<script src="js/bootstrap.js"></script>
+	  
+	    <nav id="navbar" class="navbar navbar-default navbar-fixed-top navi " role="navigation" style="background:#3CB37">
+	  <div class="container">
+	<div class="navbar-header">   
+		 <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+		<a class="navbar-brand" href="#">VERDICT</a>  
+		  
+		  </div>	
+		 <ul class="list-inline nav navbar-nav">
+		  <li class="active"><a href="#"><span class="glyphicon glyphicon-home"</span>
+			  HOME</a></li>
+		  <li><a href="#">MODULE2</a></li>
+			 
+			 
+			   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">MODULE3<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">SUBMODULE1</a></li>
+            <li><a href="#">SUBMODULE2</a></li>
+            <li><a href="#">SUBMODULE3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">SUBMODULE4</a></li>
+            <li class="divider"></li>
+            <li><a href="#">SUBMODULE5</a></li>
+          </ul>
+        </li>
+			 
+			 
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">MODULE4 <span class="caret"></span></a>
+			 <ul class="dropdown-menu">
+			<li><a href="#">SUBMODULE1</a></li>
+				 <li class="divider"></li>
+				 <li><a href="#">SUBMODULE2</a></li>
+				 <li class="divider"></li>
+			<li> <a href="#">SUBMODULE3</a></li>
+				 <li class="divider"></li>
+			<li><a href="#">SUBMODULE4</a></li>	 
+			
+			
+			</ul>
+			 </li>
+			 
+		 
+			 
+			 
+			 
+			 
+		  <li><a href="#">MODULE5</a></li>
+			 
+		  </ul> 
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <form class="navbar-form navbar-left" action="">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+		  
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+		  
+		   </div>
+	   </nav>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <!--SIGN UP FORM ACTION-->
+	 <div class="apple">
+	<form action="" method="">
+	  <div class="form-row">
+		<div class="form-group col-lg-6 ">
+		  <label for="fi" >First Name</label>
+			<input type="email" id="f1" placeholder="enter first name" class="form-control" />
+		  
+		  </div>  
+	  <div class="form-group col col-lg-6">
+		  <label for="f2">Last name</label>
+		  <input type="text" id="f2" class="form-control" placeholder="Enter last name" />
+		  </div> 
+		  <div class="form-group">
+		  <label for="eid" >Email id</label>
+			<input type="email" id="eid" class="form-control" placeholder="Enter the email id" />
+		  </div>
+		   <div class="form-group">
+		  <label for="pid">Password</label>
+			 <input type="password" id="pid" class="form-control" placeholder="Enter the Password" />
+		  </div>
+		   <div class="form-group">
+			  <label for="" >Register as</label>
+				  <select class="form-control" id="regid">
+				  <option>USER</option>
+				<option>SELLER</option>
+				  
+				  
+				  </select>
+			  
+		  
+		  
+		  
+		  <div class="form-group">
+		  <label  for="dob">Date of Birth</label>
+		  <input type="date" id="dob" class="form-control" />
+			
+		  <div class="form-group">
+			  <div class="form-check">
+			 <input class="form-check-input" type="checkbox" id="grid-check">
+				  <label for="grid-check" class="form-check-label">Accept Terms and Conditions</label>
+			  
+					</div>
+			  </div>
+			 
+			  
+			  </div>
+			  
+			   <button type="submit" class="btn btn-success btn-block btn-lg">SIGN UP</button>
+			  
+		  </div>
+		   </div>
+	  
+	  
+	  
+	  
+		
+		
+	  
+	  </form>  
+	  </div>
+	  
+		</div>
+	 	  <!--contact us-->
+	
+	
+<footer class="footer"> 
+<div class="iphone container-fluid">
+<div class="row">
+	
+	<h1 class="page-header text-center">CONTACT US</h1>
+	<div class="col-lg-4">
+	<h1 class="text-center">VERDICT</h1>
+	<div class="caption">
+	<p>We ship amazingly beautiful and healthy trees directly to your door! Let's cultivate this earth together
+		
+		</p>
+		</div>
+	</div>
+	
+	
+<div class="col-lg-4">
+	<h3>CONTACT INFO</h3>
+	<ul>
+		<li><span class="glyphicon glyphicon-folder-close"></span>VERDICT</li>
+		<li><span class="glyphicon glyphicon-earphone"></span>9000021218</li>
+		<li><span class="glyphicon glyphicon-globe"></span>verdict@gmail.com</li>
+		<li><span class="glyphicon glyphicon-grain"></span>www.verdict.com</li>
+
+	
+	</ul>
+	</div>
+
+	<div class="col-lg-4">
+	<h3>ABOUT US</h3>
+	<ul>
+	<li>FORMS</li>	
+ <li>EVENTS</li>
+		<li>AWARENESS PROGRAMS</li>
+		<li>FAQ</li>
+		<li>MEMBERSHIP BENIFITS</li>
+		</ul>
+	
+	
+	</div>
+	
+	
+	</div>	  
+	  	  
+	 <footer class="text-center">
+	  &copy;COPYRIGHTS 2018	  ALL RIGHTS ARE RESERVED
+	  </footer> 
+	
+	  </div>	  
+
+	</footer>
+	  
+	  
+ 
+	  
+	  
+	  
+  </body>
+</html>
